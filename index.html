@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <h1>FitMate 💪🏻</h1>
+  </div>
+  <div class="chat-container">
+    <div class="chat-log" id="chat-log">
+      <p class="bot">Hi there! I'm <b>FitMate</b>. I can help you calculate your BMI and tell you what category it falls into. Let me know your weight and height!</p>
+    </div>
+    <form class="input-container" onsubmit="handleSubmit(event)">
+      <input type="text" id="user-input" placeholder="Type your message here...">
+      <button id="send-button">Send</button>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
